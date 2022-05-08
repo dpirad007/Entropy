@@ -19,8 +19,8 @@ import init, { SeriesI32, DataFrame } from "../pkg/entropy.js";
   console.groupEnd();
 })();
 
-const sizeArray = [1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000];
-// const sizeArray = [1000, 5000, 10000, 50000, 100000, 500000];
+// const sizeArray = [1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000];
+const sizeArray = [1000, 5000, 10000, 50000, 100000, 500000];
 
 const dataframeDemo = async () => {
   console.group("Dataframe");
